@@ -25,6 +25,7 @@ namespace FINAL_CASESTUDY
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/css/PasteBook.css",
                       "~/Content/site.css"));
         }
     }

@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "_LoginPartial";
+}
+
+<ul class="nav navbar-nav navbar-right">
+    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+    <li>@Html.ActionLink("Profile", "About", "Home")</li>
+    <li>@Html.ActionLink("Logout", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+</ul>
+

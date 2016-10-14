@@ -10,10 +10,17 @@ namespace FINAL_CASESTUDY.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            if (true)
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Login");
+            }            
         }
 
-        public ActionResult About()
+        public ActionResult Login()
         {
             ViewBag.Message = "Your application description page.";
 
